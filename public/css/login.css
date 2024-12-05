@@ -1,0 +1,61 @@
+body {
+    background-color: #b8cbdf;
+    /* Warna latar belakang yang lembut */
+}
+
+.col-md-6 {
+    max-width: 400px;
+    /* Batasi lebar kolom */
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.card {
+    width: 100%;
+    max-width: 350px;
+    /* Lebar maksimum kartu dikurangi */
+    border: none;
+    border-radius: 10px;
+    background-color: #6599ce;
+    box-shadow: 0 10px 15px rgba(60, 58, 58, 0.2);
+    margin: 0 auto;
+    /* Memusatkan kartu */
+}
+
+
+
+.card-title {
+    font-weight: bold;
+    /* Menebalkan judul */
+    margin-bottom: 20px;
+    /* Menambahkan jarak di bawah judul */
+}
+
+.form-label {
+    font-weight: 500;
+    /* Menebalkan label form */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    /* Warna latar belakang tombol */
+    border: none;
+    /* Menghilangkan border pada tombol */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Warna latar belakang tombol saat hover */
+}
+
+.mt-3 {
+    margin-top: 1rem;
+    /* Menambahkan margin atas pada elemen */
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+    /* Ukuran margin atas yang setara dengan mt-2 di Bootstrap */
+}
+

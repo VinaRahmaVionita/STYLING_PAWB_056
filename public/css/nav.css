@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    /* Menghilangkan margin default */
+}
+
+.navbar {
+    justify-content: space-between;
+    /* Menempatkan elemen di antara kiri dan kanan */
+    font-size: 20px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgb(21, 95, 156) !important; 
+}
+
+.navbar-nav {
+    display: flex;
+    /* Menggunakan flexbox untuk navbar */
+    justify-content: center;
+    /* Menempatkan item navbar di tengah */
+}
+
+.nav-link {
+    margin: 0 15px;
+    /* Jarak antar link navbar */
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    /* Transisi halus untuk perubahan warna */
+}
+
+.nav-link:hover {
+    background-color: #93b0cf;
+    /* Warna latar belakang saat hover */
+    color: #ffffff;
+    /* Warna teks saat hover */
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+    /* Menambahkan garis bawah saat hover */
+}
+
+.navbar .nav-link {
+    color: white; /* Mengubah warna teks link menjadi putih */
+}
+
+.btn-link {
+    color: white ; /* Mengubah warna tombol logout menjadi putih */
+}
+
+.navbar .nav-link.active {
+    color: #ffffff; 
+}
+/* nav.css */
+
+/* Mengatur logo menjadi bulat */
+.navbar-brand img {
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    width: 60px; /* Atur lebar sesuai kebutuhan */
+    height: 60px; /* Atur tinggi sesuai kebutuhan */
+}

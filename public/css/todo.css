@@ -1,0 +1,59 @@
+.todo-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    justify-content: center; /* Center the items horizontally */
+    margin-top: 20px; /* Add some space above the todo list */
+}
+
+#todoList {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for the list */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center the items */
+}
+
+.todo-card {
+    background-color: #9fbcda; /* Light background for the card */
+    border: 1px solid #dee2e6; /* Border around the card */
+    border-radius: 5px; /* Rounded corners */
+    padding: 30px; /* Increased padding inside the card */
+    margin: 20px; /* Increased space between cards */
+    width: 300px; /* Increased width for the cards */
+    transition: transform 0.2s; /* Smooth transition for the hover effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Larger shadow for depth */
+    font-size: 1.5em; /* Increased font size for better readability */
+}
+
+.todo-card:hover {
+    transform: scale(1.1); /* Enlarge the card slightly more on hover */
+}
+
+.todo-card span.completed {
+    text-decoration: line-through; /* Strikethrough for completed tasks */
+    color: #6c757d; /* Gray color for completed tasks */
+}
+
+.btn {
+    margin-left: 5px; /* Space between buttons */
+}
+
+footer {
+    background-color: rgb(21, 95, 156);/* warna latar belakang footer */
+    color: white; /* warna teks footer */
+    padding: 20px 0; /* ruang di sekitar teks footer */
+    margin-top: 170px; /* Jarak atas dari paragraf terakhir */
+  }
+  
+  footer p {
+    margin-bottom: 0; /* menghapus margin bawah pada paragraf dalam footer */
+    color: #ccc; /* warna font pada teks paragraf dalam footer */
+    font-size: 25px;
+  }
+  
+  footer .py-3 {
+    padding-top: 1rem; /* tambahkan ruang atas pada div dengan kelas py-3 */
+    padding-bottom: 0.5rem; /* tambahkan ruang bawah pada div dengan kelas py-3 */
+  }
+
